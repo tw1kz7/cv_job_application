@@ -1,0 +1,15 @@
+* {
+    background: #121212;
+}
+#home, #about, #portfolio, #find{
+    color: white;
+}
+
+h1{
+    color: white;
+    background-color: #535353;
+}
+
+h2 {
+    background-color: #535353;
+}
