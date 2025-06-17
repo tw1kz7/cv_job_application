@@ -2,7 +2,9 @@
     padding-top: 48px;
 }
 
-.nav{}
+.nav{
+    width: 100%;
+}
 
 .nav-list{
     width: 100%;
@@ -39,4 +41,10 @@
 }
 .nav-link:hover{
     color: var(--font-color-hover);
+}
+
+@media (max-width: 630px) {
+    .header{
+        display: none;
+    }
 }
