@@ -1,0 +1,16 @@
+h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 455px;
+    font-size: 96px;
+    width: 100%;
+}
+
+.container h1:after {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: #fff;
+    align-content: center;
+    margin-top: 455px;
+}
