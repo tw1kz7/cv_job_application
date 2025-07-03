@@ -11,6 +11,9 @@ h1 {
     display: block;
     height: 1px;
     background-color: #fff;
-    align-content: center;
     margin-top: 455px;
+    width: 1000px;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
 }
