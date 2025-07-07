@@ -27,3 +27,6 @@
     text-decoration: none;
     transition: 0.3s;
 }
+.contact-list li:last-child{
+    margin-bottom: 100px;
+}
