@@ -1,7 +1,8 @@
 :root {
-    --font-color-main: #222222;
-    --bcg-color: #FAF7F3;
-    --font-color-hover: #9F9D9D;
+    --bg-main: #121212;
+    --font-color-main: #ffffff;
+    --font-color-hover: #121212;
+    --bg-button-main: #535353;
+    --bg-button-hover: #1db954;
+    --divider-color: #ffffff;
 }
-
-/* @media breakpoints: 992px, 768px, 576px, 480px*/
