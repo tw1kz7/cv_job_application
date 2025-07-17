@@ -3,101 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Smyk Mykhailo's CV Website Portfolio for Junior Backend Developer">
-
+    <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-    <link rel="icon" href="/assets/favicon.png" type="image/png">
-    <link rel="stylesheet" href="index.css">
-    <title>Smyk Mykhailo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <title>Maxwell Jewelry</title>
 </head>
 <body>
+    <!-- width="50" height="48" arrows-->
+    <!-- width="70" height="20" slider-->
+<section class="hero">
     <header class="header" aria-label="header">
-        <div class="header-container">
-            <nav class="nav" aria-label="header navigation">
-                <ul class="nav-list" aria-label="header navigation list">
-                    <li>
-                        <a href="#" class="nav-link" aria-label="link to home">Home</a>
-                    </li>
-                    <li>
-                        <a href="#about-id" class="nav-link" aria-label="link to about me">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#portfolio-id" class="nav-link" aria-label="link to portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#contacts-id" class="nav-link" aria-label="link to contacts">Contacts</a>
-                    </li>
-                </ul>
-            </nav>
+        <div class="container">
+            <div class="header__wrapper">
+                <nav class="header__nav-left">
+                    <ul class="header__nav-list-left">
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link">Menu</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link">About us</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="logo">
+                    <h1 class="logo__title"><a href="#">MaxWell</a></h1>
+                </div>
+
+                <nav class="header__nav-right">
+                    <ul class="header__nav-list-right">
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link">Wishlist</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link">Search</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link">Cart</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
-    <main aria-label="main">
-        <section class="home" aria-label="home section">
-            <div class="container">
-                <h1 class="home-title">Backend Developer</h1>
-            </div>
-        </section>
-        <section class="about" aria-label="about section" id="about-id">
-            <div class="container">
-                <h2 class="about-title" aria-label="about title">About Me</h2>
-                <p class="about-text" aria-label="about me text">My name is Mykhailo Smyk, and I am an aspiring Junior Backend Developer currently pursuing a degree in Computer Engineering at Igor Sikorsky Kyiv Polytechnic Institute (FICE faculty). While I am still at the beginning of my professional journey, I bring with me a deep passion for backend technologies, a strong academic foundation, and a mindset driven by growth, challenge, and creation.</br>
-                    Although I haven't worked in a company setting yet, I’ve gained hands-on experience through numerous university projects, lab assignments, and exam tasks in Python, Java, and C. These experiences have allowed me to understand core backend concepts, develop problem-solving strategies, and practice clean code principles. Additionally, I’ve taken part in freelance and volunteer activities, which have helped me build communication and time management skills in real-world scenarios.</br>
-                    I take pride in being adaptable, curious, and highly communicative—traits that have helped me navigate academic challenges and connect meaningfully with peers and mentors. I’m fluent in Ukrainian and Russian (native level), and have achieved a C1 level in English, which allows me to comfortably collaborate in international environments.</br>
-                    What inspires me most about backend development is the complexity of the problems and the satisfaction of building something functional and my own from the ground up. I am deeply motivated to grow into a Senior Developer and eventually build my own IT company. My dream is to join a large, impactful tech company like Microsoft or Nvidia, where I can learn from experienced professionals and contribute meaningfully.</br>
-                    One of my proudest achievements so far has been earning a budget-funded place at KPI, which reflects my commitment and academic performance. Outside of tech, I’ve also had success in team sports, particularly in football, which has taught me the value of discipline and collaboration—even though I wouldn’t say I have any fixed hobbies.</br>
-                    I’m now looking for an opportunity where I can apply and further develop my technical skills, gain mentorship, and become a valuable part of a professional team.</p>
-
-            </div>
-        </section>
-        <section class="portfolio" aria-label="portfolio section" id="portfolio-id">
-            <div class="container">
-                <h2 class="portfolio-title" aria-label="portfolio title">Portfolio</h2>
-                <nav class="nav" aria-label="portfolio navigation">
-                    <ul class="portfolio-list" aria-label="portfolio navigation list">
-                        <li>
-                            <a href="#" class="portfolio-link" aria-label="link to maxwell jewelry store">Maxwell Jewelry Store</a>
-                        </li>
-                        <li>
-                            <a href="#" class="portfolio-link" aria-label="link to timothy's goldenwatch tower">Timothy's Goldenwatch Tower</a>
-                        </li>
-                        <li>
-                            <a href="#" class="portfolio-link" aria-label="link to webgarden inc.">WebGarden Inc.</a>
-                        </li>
-                        <li>
-                            <a href="#" class="portfolio-link" aria-label="link to playground sneakers store">Playground Sneakers Store</a>
-                        </li>
-                        <li>
-                            <a href="#" class="portfolio-link" aria-label="link to wood&co furniture">Wood&Co Furniture</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </section>
-        <section class="contacts" aria-label="contacts section" id="contacts-id">
-            <div class="container">
-                <h2 class="contact-title" aria-label="contacts title">Contacts</h2>
-                <nav class="nav" aria-label="contacts navigation">
-                    <ul class="contact-list" aria-label="contacts navigation list">
-                        <li>
-                            <a href="https://instagram.com/tw1kz7" class="contacts-link" aria-label="link to instagram">Instagram</a>
-                        </li>
-                        <li>
-                            <a href="#" class="contacts-link" aria-label="link to linkedin">LinkedIn</a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/tw1kz7" class="contacts-link" aria-label="link to github">GitHub</a>
-                        </li>
-                        <li>
-                            <a href="mailto:smykmsha@gmail.com" class="contacts-link" aria-label="link to email">smykmsha@gmail.com</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </section>
-    </main>
-    <footer></footer>
+</section>
 </body>
 </html>

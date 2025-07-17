@@ -2,33 +2,38 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "Narita Monospace";
+    src: url('fonts/Narita-Monospace.otf') format("otf");
+    font-weight: normal;
+    font-style: normal;
+}
 body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
-    background-color: var(--bg-main);
+    font-family: "Narita Monospace", monospace;
+    background-color: var(--bcg-color);
+}
+
+h1 {
+    font-family: "Major Mono Display", monospace;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 ul{
-    list-style: None;
+    list-style: none;
     margin: 0;
     padding: 0;
 }
 
-a {
+a{
     text-decoration: none;
     color: unset;
 }
-h1, p {
-    margin: 0;
-}
 
-.container {
-    margin: 0 auto;
-    max-width: 1358px;
-    padding: 0 5px;
-}
-.header-container {
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 0 5px;
+.container{
+    max-width: 1920px;
 }
