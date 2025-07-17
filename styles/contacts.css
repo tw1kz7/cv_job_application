@@ -1,0 +1,32 @@
+.contact-title {
+    color: var(--font-color-main);
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 25px;
+}
+
+.contacts-link {
+    color: var(--font-color-main);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 36px;
+}
+
+.contact-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+}
+
+.contact-list li a:hover{
+    color: var(--bg-button-hover);
+    text-decoration: none;
+    transition: 0.3s;
+}
+.contact-list li:last-child{
+    margin-bottom: 100px;
+}
